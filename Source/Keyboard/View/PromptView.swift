@@ -1,5 +1,5 @@
 //
-//  PWPromptView.swift
+//  PromptView.swift
 //  VehicleKeyboardDemo
 //
 //  Created by 杨志豪 on 2018/5/31.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PWPromptView: UIView {
+class PromptView: UIView {
     
     @IBOutlet weak var backgroundImageView: UIImageView!
     

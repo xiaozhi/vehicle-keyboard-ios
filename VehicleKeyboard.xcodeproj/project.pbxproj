@@ -22,11 +22,11 @@
 		4788C1A6214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788C199214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.swift */; };
 		4788C1A7214A17BD00FEB3FA /* PlateInputViewCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4788C19A214A17BD00FEB3FA /* PlateInputViewCollectionCell.xib */; };
 		4788C1A9214A17BD00FEB3FA /* PlateInputViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788C19C214A17BD00FEB3FA /* PlateInputViewCollectionCell.swift */; };
-		4788C1AB214A17BD00FEB3FA /* PWPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788C19E214A17BD00FEB3FA /* PWPromptView.swift */; };
+		4788C1AB214A17BD00FEB3FA /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788C19E214A17BD00FEB3FA /* PromptView.swift */; };
 		4788C1AC214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4788C19F214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.xib */; };
 		4788C1AE214A17BD00FEB3FA /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4788C1A1214A17BD00FEB3FA /* UITextField+Extension.swift */; };
 		4788C1AF214A17BD00FEB3FA /* PWBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4788C1A2214A17BD00FEB3FA /* PWBundle.bundle */; };
-		4788C1B0214A17BD00FEB3FA /* PWPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4788C1A3214A17BD00FEB3FA /* PWPromptView.xib */; };
+		4788C1B0214A17BD00FEB3FA /* PromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4788C1A3214A17BD00FEB3FA /* PromptView.xib */; };
 		47A2495E214F97A900B189C1 /* KeyboardLayoutFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A2495D214F97A800B189C1 /* KeyboardLayoutFactory.swift */; };
 		47A249612150A06900B189C1 /* KeyboardLayoutRegistrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A249602150A06900B189C1 /* KeyboardLayoutRegistrar.swift */; };
 		47A249632150AC1A00B189C1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A249622150AC1A00B189C1 /* Device.swift */; };
@@ -79,11 +79,11 @@
 		4788C199214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWKeyBoardCollectionViewCell.swift; sourceTree = "<group>"; };
 		4788C19A214A17BD00FEB3FA /* PlateInputViewCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlateInputViewCollectionCell.xib; sourceTree = "<group>"; };
 		4788C19C214A17BD00FEB3FA /* PlateInputViewCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlateInputViewCollectionCell.swift; sourceTree = "<group>"; };
-		4788C19E214A17BD00FEB3FA /* PWPromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWPromptView.swift; sourceTree = "<group>"; };
+		4788C19E214A17BD00FEB3FA /* PromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 		4788C19F214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWKeyBoardCollectionViewCell.xib; sourceTree = "<group>"; };
 		4788C1A1214A17BD00FEB3FA /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		4788C1A2214A17BD00FEB3FA /* PWBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PWBundle.bundle; sourceTree = "<group>"; };
-		4788C1A3214A17BD00FEB3FA /* PWPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWPromptView.xib; sourceTree = "<group>"; };
+		4788C1A3214A17BD00FEB3FA /* PromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PromptView.xib; sourceTree = "<group>"; };
 		47A2495D214F97A800B189C1 /* KeyboardLayoutFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutFactory.swift; sourceTree = "<group>"; };
 		47A249602150A06900B189C1 /* KeyboardLayoutRegistrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutRegistrar.swift; sourceTree = "<group>"; };
 		47A249622150AC1A00B189C1 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
@@ -256,8 +256,8 @@
 		47C9DDD8214A5AE3001502AE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4788C1A3214A17BD00FEB3FA /* PWPromptView.xib */,
-				4788C19E214A17BD00FEB3FA /* PWPromptView.swift */,
+				4788C1A3214A17BD00FEB3FA /* PromptView.xib */,
+				4788C19E214A17BD00FEB3FA /* PromptView.swift */,
 				4788C199214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.swift */,
 				4788C19F214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.xib */,
 			);
@@ -389,7 +389,7 @@
 				4788C1AF214A17BD00FEB3FA /* PWBundle.bundle in Resources */,
 				4788C1A7214A17BD00FEB3FA /* PlateInputViewCollectionCell.xib in Resources */,
 				270C770E2079F16F009688AF /* LaunchScreen.storyboard in Resources */,
-				4788C1B0214A17BD00FEB3FA /* PWPromptView.xib in Resources */,
+				4788C1B0214A17BD00FEB3FA /* PromptView.xib in Resources */,
 				4788C1AC214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.xib in Resources */,
 				270C770B2079F16F009688AF /* Assets.xcassets in Resources */,
 				270C77092079F16F009688AF /* Main.storyboard in Resources */,
@@ -476,7 +476,7 @@
 				47DCE152214A6AFD005E7490 /* Key.swift in Sources */,
 				47A249632150AC1A00B189C1 /* Device.swift in Sources */,
 				47DCE159214F8BB9005E7490 /* String+SubString.swift in Sources */,
-				4788C1AB214A17BD00FEB3FA /* PWPromptView.swift in Sources */,
+				4788C1AB214A17BD00FEB3FA /* PromptView.swift in Sources */,
 				4788C1A6214A17BD00FEB3FA /* PWKeyBoardCollectionViewCell.swift in Sources */,
 				47A249652150D27600B189C1 /* KeyBoardView.swift in Sources */,
 				47BA97EB2152306300CF8346 /* PlateNumberInputView.swift in Sources */,

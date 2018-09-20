@@ -31,7 +31,7 @@ class KeyBoardView: UIView,
     
     let identifier = "PWKeyBoardCollectionViewCell"
     
-    let promptView = Bundle(for: KeyBoardView.self).loadNibNamed("PWPromptView", owner: nil, options: nil)?.last as! PWPromptView
+    let promptView = Bundle(for: KeyBoardView.self).loadNibNamed("PromptView", owner: nil, options: nil)?.last as! PromptView
     var mainColor = UIColor(red: 65 / 256.0, green: 138 / 256.0, blue: 249 / 256.0, alpha: 1)
     
     override init(frame: CGRect) {
